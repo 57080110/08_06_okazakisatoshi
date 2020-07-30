@@ -35,6 +35,6 @@ if (!$val) {
   $_SESSION = array(); // セッション変数を空にする
   $_SESSION["session_id"] = session_id();
   $_SESSION["is_admin"] = $val["is_admin"];
-  header("Location:read.php"); // 一覧ページへ移動
+  header("Location:001.php"); // 一覧ページへ移動
   exit();
 }

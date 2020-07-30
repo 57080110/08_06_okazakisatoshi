@@ -1,0 +1,45 @@
+ html,
+    body {
+      height: 100%;
+      width: 700px;
+      margin-top: 30px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .header-title {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 46px;
+      border-bottom: 1px solid #aaa;
+      text-align: center;
+      color: blue;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .container {
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      margin-top: 100px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: ghostwhite;
+    }
+
+    .hide {
+      display: none;
+    }
+
+    #info {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: blue;
+    }
